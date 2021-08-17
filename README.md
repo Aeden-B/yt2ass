@@ -1,5 +1,5 @@
 # yt2ass
-Youtube subs convert for Aegisub
+Converting Youtube Karaoke Subtitles for Aegisub
 
 To install :
 - Add youtube-converter.lua in autoload aegisub folder
