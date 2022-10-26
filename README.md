@@ -1,5 +1,6 @@
 # yt2ass
 Converting Youtube Karaoke Subtitles for Aegisub
+(Mostly Hololive subtitles)
 
 To install :
 - Add youtube-converter.lua in autoload aegisub folder
