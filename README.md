@@ -8,9 +8,8 @@ To install :
 (French Below / Français en dessous)
 
 Steps to follow :
-To install the script, copy it to the autoload folder of aegisub
-get the srv3 via youtube-dl or the youtube api cf https://github.com/arcusmaximus/YTSubConverter#reverse-conversion
-
+- To install the script, copy it to the autoload folder of aegisub
+- get the srv3 via youtube-dl or the youtube api cf https://github.com/arcusmaximus/YTSubConverter#reverse-conversion
 - convert to ass via `YTSubConverter [name of srv3].srv3 [name of desired ass].ass`
 - Open in Aegisub, menu "Subtitle", "Sort all styles", "Style name"
 - Select and delete all lines with YTSoftShadow style
