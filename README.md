@@ -13,7 +13,7 @@ Steps to follow :
 - convert to ass via `YTSubConverter [name of srv3].srv3 [name of desired ass].ass`
 - Open in Aegisub, menu "Subtitle", "Sort all styles", "Style name"
 - Select and delete all lines with YTSoftShadow style
-- menu "Edit", "Find and replace" in find put this regexp `(?!\{\\c&HD9D9D9&\})\{[^\}]*\}` with the tag serving as a color change in my case it is HD9D9D9, check "Use regular expressions" and click on replace all to remove all other useless tags.
+- menu "Edit", "Find and replace" in find put this regexp `(?!\{\\c&HD9D9D9&\})\{[^\}]*\}` with the tag serving as a color change in my case it is HD9D9D9, check "Use regular expressions" and click on replace all to remove all other useless tags. After replacement, you should only have lines with the tag serving as a color change, `{\c&HD9D9D9&}` in my case.
 - Delete translation lines if present
 - select all the lines, menu "automation", "Youtube Converter"
 
@@ -25,7 +25,7 @@ Etapes à suivre :
 - convertir en ass via `YTSubConverter [nom du srv3].srv3 [nom du ass voulu].ass`
 - Ouvrir dans Aegisub, menu "Sous-titre", "Trier toutes les styles", "Nom du style"
 - Sélectionner et supprimer toutes les lignes ayant le style YTSoftShadow
-- menu "Edition", "Chercher et remplacer" dans chercher mettre cette regexp `(?!\{\\c&HD9D9D9&\})\{[^\}]*\}` avec le tag servant de changement de coloration dans mon cas c'est HD9D9D9, cocher "Utiliser des expressions régulières" et cliquer sur remplacer tout pour supprimer toutes les autres balises inutiles.
+- menu "Edition", "Chercher et remplacer" dans chercher mettre cette regexp `(?!\{\\c&HD9D9D9&\})\{[^\}]*\}` avec le tag servant de changement de coloration dans mon cas c'est HD9D9D9, cocher "Utiliser des expressions régulières" et cliquer sur remplacer tout pour supprimer toutes les autres balises inutiles. Suite au remplacement, vous ne devriez avoir des lignes qu'avec comme seul tag celui servant de changement de coloration dans mon cas, `{\c&HD9D9D9&}`.
 - Supprimer les lignes de traduction si présentes
 - sélectionner toutes les lignes, menu "automatisme", "Youtube Converter"
 
